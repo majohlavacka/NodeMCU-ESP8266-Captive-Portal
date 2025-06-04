@@ -39,7 +39,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - Zapojíme NodeMCU ESP8266 do Breadboardu. Čevená led je zapojená do `D1`, zelená led do `D2` a modrá led do `D7`, pričom každá led využíva aj 1k ohm rezistor.
 
 <p align="center">
-  <img src="Pictures/Zapojenie.JPG" alt="Obrázok 2 Zapojenie a spustenie" width="500"/>
+  <img src="Pictures/Zapojenie.JPG" alt="Obrázok 2 Zapojenie a spustenie" width="700"/>
   <br>
   <i>Obrázok 2 Zapojenie a spustenie</i>
 </p>
@@ -48,7 +48,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - Po spustení NodeMCU ESP8266 sa pripojte na AP `MyWiFi` a presmeruje Vás na registračnú stránku.
 
 <p align="center">
-  <img src="Pictures/Register.PNG" alt="Obrázok 3 Registrácia v Captive Portal" width="500"/>
+  <img src="Pictures/Register.PNG" alt="Obrázok 3 Registrácia v Captive Portal" width="700"/>
   <br>
   <i>Obrázok 3 Registrácia v Captive Portal</i>
 </p>
@@ -56,7 +56,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - Následne zadajte náhodné údaje pre registráciu a nastane presmerovanie na stránku úspešnej registrácie.
 
 <p align="center">
-  <img src="Pictures/Registered.PNG" alt="Obrázok 4 Úspešná registrácia" width="500"/>
+  <img src="Pictures/Registered.PNG" alt="Obrázok 4 Úspešná registrácia" width="700"/>
   <br>
   <i>Obrázok 4 Úspešná registrácia</i>
 </p>
@@ -64,7 +64,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - K zachytenám údajom préjdite do url `194.162.4.1/data`, pričom sa musíte overiť meno `admin` a heslo `admin`.
 
 <p align="center">
-  <img src="Pictures/Data.PNG" alt="Obrázok 5 Zachytené dáta" width="500"/>
+  <img src="Pictures/Data.PNG" alt="Obrázok 5 Zachytené dáta" width="700"/>
   <br>
   <i>Obrázok 5 Zachytené dáta</i>
 </p>
