@@ -56,7 +56,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - Následne zadajte náhodné údaje pre registráciu a nastane presmerovanie na stránku úspešnej registrácie.
 
 <p align="center">
-  <img src="Pictures/Registered.png" alt="Obrázok 4 Úspešná registrácia" width="800"/>
+  <img src="Pictures/Registered.PNG" alt="Obrázok 4 Úspešná registrácia" width="800"/>
   <br>
   <i>Obrázok 4 Úspešná registrácia</i>
 </p>
@@ -64,7 +64,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 - K zachytenám údajom préjdite do url `194.162.4.1/data`, pričom sa musíte overiť meno `admin` a heslo `admin`.
 
 <p align="center">
-  <img src="Pictures/Data.png" alt="Obrázok 5 Zachytené dáta" width="800"/>
+  <img src="Pictures/Data.PNG" alt="Obrázok 5 Zachytené dáta" width="800"/>
   <br>
   <i>Obrázok 5 Zachytené dáta</i>
 </p>
