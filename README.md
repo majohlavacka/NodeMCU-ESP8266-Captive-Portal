@@ -23,7 +23,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
 
 ## Nahratie kódu do ESP8266
 - Ako prvé je potrebne v Arduino IDE exportovať compilovany binárny súbor: `Sketch/Export Compiled Binary`. Vznikne nám súbor s koncovkou `.bin`.
-- Následne je potrebné nainštalovať ESP Flasher: `https://github.com/nodemcu/nodemcu-flasher`.
+- Následne je potrebné nainštalovať NodeMCU Flasher: `https://github.com/nodemcu/nodemcu-flasher`.
 - Po spustení flasheru nastavíme v sekci `Config` cestu kde máme `.bin` kód uloženy a adresu necháme na `0x00000`.
 - V sekcií `Advanced` nastavíme `Baudrate - 115200`, `Flash size - 4MByte`, `Flash speed - 40MHt` a `SPI Mode - DIO`.
 
