@@ -1,5 +1,5 @@
 # NodeMCU-ESP8266-Captive-Portal-&-DNS-Spoofing
-Tento mini projekt slúži ako testovanie známeho útoku captive portal na Wi-Fi. Zariadenie ESP8266 slúži ako AP, ktoré vysiela AP a v prípade, že sa pripojíme vvyzve nás na registráciu pre používanie internetu. 
+Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v prostredí Wi-Fi sietí. Zariadenie ESP8266 funguje ako prístupový bod (AP), ktorý vysiela vlastnú Wi-Fi sieť. Po pripojení zariadenia používateľa k tejto sieti je každý pokus o prístup na internet presmerovaný na registračnú stránku, ktorá žiada zadanie prihlasovacích údajov (email a heslo) – podobne ako to robia verejné Wi-Fi siete.
 
 ## Využitý hardware
 - `NodeMCU ESP8266 with 0.96 OLED Display`
@@ -44,4 +44,30 @@ Tento mini projekt slúži ako testovanie známeho útoku captive portal na Wi-F
   <i>Obrázok 2 Zapojenie a spustenie</i>
 </p>
 
+## Testovanie AP
+- Po spustení NodeMCU ESP8266 sa pripojte na AP `MyWiFi` a presmeruje Vás na registračnú stránku.
 
+<p align="center">
+  <img src="Pictures/Register.jpg" alt="Obrázok 3 Registrácia v Captive Portal" width="800"/>
+  <br>
+  <i>Obrázok 3 Registrácia v Captive Portal</i>
+</p>
+
+- Následne zadajte náhodné údaje pre registráciu a nastane presmerovanie na stránku úspešnej registrácie.
+
+<p align="center">
+  <img src="Pictures/Registered.jpg" alt="Obrázok 4 Úspešná registrácia" width="800"/>
+  <br>
+  <i>Obrázok 4 Úspešná registrácia</i>
+</p>
+
+- K zachytenám údajom préjdite do url `194.162.4.1/data`, pričom sa musíte overiť meno `admin` a heslo `admin`.
+
+<p align="center">
+  <img src="Pictures/Data.jpg" alt="Obrázok 5 Zachytené dáta" width="800"/>
+  <br>
+  <i>Obrázok 5 Zachytené dáta</i>
+</p>
+
+## Poznámka k projektu
+Tento projekt slúži výhradne na vzdelávacie účely v oblasti kybernetickej bezpečnosti. Autor nenesie žiadnu zodpovednosť za akékoľvek zneužitie tohto kódu na neetické alebo nelegálne účely
