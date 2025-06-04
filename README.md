@@ -69,5 +69,12 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
   <i>Obrázok 5 Zachytené dáta</i>
 </p>
 
+- Pozorujte displej na NodeMCU ESP8266, kde sa zachytávajú informácie o klientoch.
+
+## Vylepšenie projektu
+- Aktuálne údaje sa ukladajú iba do pamäte RAM a teda po reštartovaní zariadenia budu premazané.
+- Na základe tohto problémuu je vhodné použiť vylepšenie napr. `Micro SD Card Adapter AMS1117` a ukladať tak zachytené dáta priamo do SD karty v rámci textového súboru.
+- V prípade takéhoto vylepšenie je potrebné NodeMCU ESP8266 bez integrovaného OLED displeja, pretože ten využíva piny D5 a D6, ktoré sú potrebné pre pripojenie Micro SD adaptéra.
+
 ## Poznámka k projektu
 Tento projekt slúži výhradne na vzdelávacie účely v oblasti kybernetickej bezpečnosti. Autor nenesie žiadnu zodpovednosť za akékoľvek zneužitie tohto kódu na neetické alebo nelegálne účely
