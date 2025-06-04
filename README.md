@@ -61,7 +61,7 @@ Tento mini projekt slúži na testovanie známeho útoku typu Captive Portal v p
   <i>Obrázok 4 Úspešná registrácia</i>
 </p>
 
-- K zachytenám údajom préjdite do url `194.162.4.1/data`, pričom sa musíte overiť meno `admin` a heslo `admin`.
+- K zachytenám údajom préjdite do url `192.168.4.1/data`, pričom sa musíte overiť meno `admin` a heslo `admin`.
 
 <p align="center">
   <img src="Pictures/Data.PNG" alt="Obrázok 5 Zachytené dáta" width="700"/>
